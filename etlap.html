@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "hu">
+    <head>
+        <title> Étlap </title>
+        <link href = "style.css" type = "text/css" rel = "stylesheet">
+        <meta charset = "UTF-8">
+        <link rel="icon" href="icon.png" type="image/icon type">
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class = "box">
+            <div class = "cim">
+               PizzaCity
+            </div>
+        </div>
+        <div class = "box">
+            <div class = "tartalom">
+                <h2> <span id = "tarszoveg"> Étlapunk: </span> </h2>
+            </div>
+            <div class = "etlap">
+                <table id = "etlaptable" align = "center">                 
+                    <tr>
+                        <td> Margaréta </td>
+                        <td> Paradicsomos alap, Sajt </td>
+                        <td id = "ar"> 1310 Ft </td>
+                        <td> <img src = "margareta.png" id = "pizzakep" title = "Margaréta" alt = "Margaréta"> </td>
+                    </tr>
+                    <tr>
+                        <td> Kukoricás </td>
+                        <td> Paradicsomos alap, Kukorica, Sajt </td>
+                        <td id = "ar"> 1350 Ft </td>
+                        <td> <img src = "kukoricas.png" id = "pizzakep" title = "Kukoricás" alt = "Kukoricás"> </td>
+                    </tr>
+                    <tr>
+                        <td> Kolbászos </td>
+                        <td> Paradicsomos alap, Kolbász, Sajt </td>
+                        <td id = "ar"> 1410 Ft </td>
+                        <td> <img src = "kolbaszos.png" id = "pizzakep" title = "Kolbászos" alt = "Kolbászos"> </td>
+                    </tr>
+                    <tr>
+                        <td> Sonkás </td>
+                        <td> Paradicsomos alap, Sonka, Sajt </td>
+                        <td id = "ar"> 1410 Ft </td>
+                        <td> <img src = "sonkas.png" id = "pizzakep" title = "Sonkás" alt = "Sonkás"> </td>
+                    </tr>
+                    <tr>
+                        <td> Hawaii </td>
+                        <td> Paradicsomos alap, Sonka, Ananász, Sajt </td>
+                        <td id = "ar"> 1610 Ft </td>
+                        <td> <img src = "hawaii.png" id = "pizzakep" title = "Hawaii" alt = "Hawaii"> </td>
+                    </tr>
+                    <tr>
+                        <td> Songoku </td>
+                        <td> Paradicsomos alap, Sonka, Gomba, Kukorica, Sajt </td>
+                        <td id = "ar"> 1610 Ft </td>
+                        <td> <img src = "songoku.png" id = "pizzakep" title = "Songoku" alt = "Songoku"> </td>
+                    </tr>
+                    <tr>
+                        <td> Mexikói </td>
+                        <td> Paradicsomos alap, Marhahús, Kukorica, Bab, Chili, Jalapeno, Sajt </td>
+                        <td id = "ar"> 1710 Ft </td>
+                        <td> <img src = "mexikoi.png" id = "pizzakep" title = "Mexikói" alt = "Mexikói"> </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class = "box">
+            <div class = "veg">
+                <p>
+                    5000 Ft feletti vásárlás esetén INGYENES a szállítás, A <a href = "https://www.google.com/maps" target= "_blank">VILÁGON BÁRHOVÁ</a> kiszállítjuk!
+                    <br> Magyarországon belül várható kiszállítás: 1-2 óra
+                    <br> Külföldi szállítás esetén várható kiszállítás: 1-100 óra (távolságtól függően)
+                    <br> Telefonszámunk: +36 30 <span id = "randomszam">Felfedés</span>
+                    <br> <span id = "easteregg"> A telefonszám random generálódik le </span>
+                    <h1 id = "vegnev"> PizzaCity </h1>
+                </p>
+            </div>
+        </div>
+        <script>
+            var randomszam = Math.round(Math.random()*8999999+1000000);
+            document.getElementById("randomszam").innerHTML = randomszam;
+        </script>
+    </body>
+</html>

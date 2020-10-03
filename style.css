@@ -1,0 +1,84 @@
+body{
+    background-image:url(pizza.png);
+    font-family: 'Sansita Swashed', cursive;
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color: white;
+    font-size: 20px;
+}
+
+.cim{
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.box{
+    background-color: rgba(0,0,0,0.8);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    padding:20px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.tartalom{
+    text-align: center;
+}
+
+#tarszoveg{
+    font-size: 30px;
+}
+
+#etlaptable{
+    border-collapse: collapse;
+}
+
+#etlaptable, th, td{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 30px;
+}
+
+#ar{
+    text-align: right;
+}
+
+.veg{
+    text-align: center;
+    font-size: 30px;
+}
+
+#pizzakep{
+    width: 220px;
+}
+
+a:link{
+    color: white;
+}
+
+a:visited{
+    color: red;
+}
+
+a:visited:active{
+    color: red;
+}
+
+#easteregg{
+    opacity: 0%;
+}
+
+#easteregg:hover{
+    opacity: 50%;
+}
+
+#vegnev{
+    font-style: italic;
+}
